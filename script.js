@@ -18,8 +18,10 @@ const library = [
 
 const numberOfBooksRead = () => {
   // write your code here
+	let rah=library.filter(book => book.readingStatus==true)
+	return rah.length;
 };
 
 // Do not change the code below
 
-alert(numberOfBooksRead());
+// alert(numberOfBooksRead());
